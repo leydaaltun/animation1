@@ -1,0 +1,29 @@
+/*animation*/
+.iphone1-img-behind,
+.iphone2-img-behind {
+    position: absolute;
+    display: none;
+    top:0
+}
+.iphone-stick{    
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 54%;
+}
+.iphone-image-wrapper {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+.iphone1-text,
+.iphone2-text {
+    place-self: center;
+}
+.iphone2 {
+    position: absolute;
+    top: 12%;
+    right: 41%;
+    width: 16%;
+    z-index: 1;
+}
